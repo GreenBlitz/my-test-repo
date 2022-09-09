@@ -9,6 +9,8 @@ public class OI {
 	private final SmartJoystick mainJoystick;
 	private final SmartJoystick secondJoystick;
 
+	private final int nice = 69;
+
 	private OI() {
 		mainJoystick = new SmartJoystick(RobotMap.Robot.Joystick.MAIN, 0.2);
 		secondJoystick = new SmartJoystick(RobotMap.Robot.Joystick.SECOND, 0.2);
